@@ -1,0 +1,16 @@
+3
+Dr. Scott
+Childhood home
+41.156537
+-93.7107200
+darkblue
+Dr. Jan
+Southernmost city in the world
+-54.801912
+-68.302951
+green
+Dr. Jan
+Seattle, WA
+47.606209
+-122.332071
+red
