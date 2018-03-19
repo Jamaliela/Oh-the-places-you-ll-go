@@ -41,7 +41,7 @@ def read_file_contents(filenm):
     """
     in_str = ""
     reverse_str = ""
-    open_file = open(filenm, "r") # use io_input.txt
+    open_file = open(filenm, "r")               # use io_input.txt
     next_line = open_file.readline()            # reads the first line
     while(len(next_line) > 0):                  # while there is something to read
         in_str = in_str + next_line             # concatenates the string to the normal end
@@ -56,6 +56,7 @@ def write_file_reverse(out_str ,outfile):
     """
     Creates a file, opens it, and outputs the list of
     strings in out_str out in reverse order. At the end, closes the file.
+
     :param out_str: the string to be written
     :param outfile: the file to write to
     :return: None
@@ -71,6 +72,7 @@ def main():
     """
     The main function, which asks the user for the input file name, the output file name,
     and writes the string in the input file to the output file, in reverse order
+
     :return: None
     """
     in_filename = input("What is the input filename (default is 'io_input.txt')? ")
@@ -91,4 +93,6 @@ def main():
     print("\nHere is the file in the reverse order:\n")
     print(rev_string)
 
-main()
+
+if __name__ == "__main__":
+    main()

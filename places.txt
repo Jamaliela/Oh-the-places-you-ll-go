@@ -14,3 +14,9 @@ Seattle, WA
 47.606209
 -122.332071
 red
+
+
+# NOTES:
+# 1) The first number represents the number of entries in the file. Make sure you update that number if you add more.
+# 2) No spaces between entries! The code doesn't handle blank lines.
+# 3) Don't forget the type of data for each line as you create the code
