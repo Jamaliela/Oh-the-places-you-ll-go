@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Emily Lovell & Scott Heggen      TODO: Change this to your names
+# Username: lovelle & heggens             TODO: Change this to your usernames
 #
 # Assignment: T10: Oh, the Places You'll Go!
 #
@@ -41,14 +41,17 @@ def read_file_contents(filenm):
     """
     in_str = ""
     reverse_str = ""
+
     open_file = open(filenm, "r")               # use io_input.txt
     next_line = open_file.readline()            # reads the first line
+
     while(len(next_line) > 0):                  # while there is something to read
         in_str = in_str + next_line             # concatenates the string to the normal end
         reverse_str = next_line + reverse_str   # concatenates backwards
         next_line = open_file.readline()        # reads the next line
     open_file.close()
     print("{0} file read.".format(filenm))
+
     return (in_str, reverse_str)                # returns a tuple
 
 
@@ -64,6 +67,7 @@ def write_file_reverse(out_str ,outfile):
     open_file = open(outfile, "w")
     open_file.write(out_str)                  # writes out the entire string
     open_file.close()
+
     print("{0} file written.".format(outfile))
 
 
@@ -76,6 +80,7 @@ def main():
     :return: None
     """
     in_filename = input("What is the input filename (default is 'io_input.txt')? ")
+
     if in_filename == "":
         in_filename = "io_input.txt"            # use io_input.txt if no filename entered
 

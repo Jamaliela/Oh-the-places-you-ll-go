@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Emily Lovell & Scott Heggen      TODO: Change this to your names
+# Username: lovelle & heggens             TODO: Change this to your usernames
 #
 # Assignment: T10: Oh, the Places You'll Go!
 #
@@ -34,7 +34,6 @@ def parse_file(filename):
     file_content = open(filename, 'r')           # Opens file for reading
 
     str_num = file_content.readline()           # The first line of the file, which is the number of entries in the file
-
     str_num = int(str_num[:-1])                 # The '/n' character needs to be removed
 
     places_list = []
@@ -92,7 +91,7 @@ def extract_place(file_content):
     # TODO   Read the next five lines of the file, I've done the first one for you (name = ...).
     # TODO   The order of the lines are: name, location, latitude, longitude, and user color.
     # TODO   Take a look at places.txt to see the structure of the data.
-    # TODO   Just like above (line 38), you need to remove the last character (\n).
+    # TODO   Just like above (line 37), you need to remove the last character (\n).
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
