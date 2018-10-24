@@ -88,7 +88,7 @@ def extract_place(file_content):
     :return: a tuple representing a single place.
     """
 
-    # TODO   Read the next five lines of the file, I've done the first one for you (name = ...).
+    # TODO   Read the next five lines of the file, we've done the first one for you (name = ...).
     # TODO   The order of the lines are: name, location, latitude, longitude, and user color.
     # TODO   Take a look at places.txt to see the structure of the data.
     # TODO   Just like above (line 37), you need to remove the last character (\n).
