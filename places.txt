@@ -9,10 +9,10 @@ Awesome city: Edinburgh, Scotland
 55.950190
 -3.187550
 lightgreen
-Emily
-Hometown: Pittsburgh, PA
-40.932850
--80.358543
+Emely
+Most interesting place: Madrid, Spain
+40.4168
+3.7038
 orange
 Emily
 Most Interesting Place: Reykjavik, Iceland
