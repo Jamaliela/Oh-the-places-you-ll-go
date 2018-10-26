@@ -4,11 +4,11 @@ Hometown: New Virginia, IA
 41.156537
 -93.7107200
 darkblue
-Scott
-Awesome city: Edinburgh, Scotland
-55.950190
--3.187550
-lightgreen
+Giorgi
+Hometown: Tbilisi, Giorgia
+41.7151
+44.8271
+red
 Emely
 Most interesting place: Madrid, Spain
 40.4168
@@ -18,7 +18,7 @@ Emily
 Most Interesting Place: Reykjavik, Iceland
 64.147210
 -21.942400
-red
+lightgreen
 Ela
 Hometown: Tabriz, Iran
 38.056137
