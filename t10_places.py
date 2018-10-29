@@ -117,7 +117,7 @@ def main():
     :return: None
     """
 
-    # The next three lines set up the world map
+    #  The next three lines set up the world map
 
     # A sample file was created for you to use here: places.txt
     in_file = input("Enter the name of the file: ")
